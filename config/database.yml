@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
-  database: fron_page_design_10am_production
-  username: fron_page_design_10am
-  password: <%= ENV['FRON_PAGE_DESIGN_10AM_DATABASE_PASSWORD'] %>
+   adapter: postgresql
+   database: fron_page_design_db_production
+ 
+
